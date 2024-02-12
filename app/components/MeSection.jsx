@@ -10,7 +10,7 @@ export const MeSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#CCCCCC]   to-[#403B25]">
-              Hello, I'm
+              Hello, Im
             </span>
             <br />
             <TypeAnimation
@@ -33,7 +33,7 @@ export const MeSection = () => {
             👋Hey! Me presento, soy Edson Aristiguieta desarrollador full stack
             web apasionado por el mundo de la programación, con ganas de
             aprender más y crecer en este mundo. Mi dedicación al proyecto es lo
-            que más me define profesionalmente. "Hola mundo" se ha vuelto mi
+            que más me define profesionalmente. Hola mundo se ha vuelto mi
             mantra y no puedo estar mas feliz!.
           </p>
           <div>
