@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-
 export const MeSection = () => {
   return (
     <section className="lg:py-16">
@@ -30,11 +29,14 @@ export const MeSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            👋Hey! Me presento, soy Edson Aristiguieta desarrollador full stack
-            web apasionado por el mundo de la programación, con ganas de
-            aprender más y crecer en este mundo. Mi dedicación al proyecto es lo
-            que más me define profesionalmente. Hola mundo se ha vuelto mi
-            mantra y no puedo estar mas feliz!.
+            Apasionado por la innovación y la creatividad, busco constantemente
+            desafiar mis límites en el desarrollo web. Encuentro inspiración en
+            el desafío y la satisfacción de lograr resultados significativos a
+            través de un trabajo meticuloso y persistente. Disfruto sumergirme
+            en proyectos que requieren dedicación y paciencia . Creo firmemente
+            en el valor del esfuerzo continuo y la superación personal, aparte
+            soy una persona a la que le encanta trabajar en equipo para alcanzar
+            metas ambiciosas y significativas.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-lime-900  to-[#403B25] bg-white hover:bg-slate-200   text-white ">
@@ -51,7 +53,7 @@ export const MeSection = () => {
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]   relative ">
             <Image
               src="/images/Profile_NoBackground.png"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full "
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full  -my-6 sm:w-200 object-cover"
               alt="ProfileImg"
               width={200}
               height={200}
