@@ -2,6 +2,8 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
+
 export const MeSection = () => {
   return (
     <section className="lg:py-16">
@@ -43,13 +45,13 @@ export const MeSection = () => {
               Contacto
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full  bg-gradient-to-br  from-lime-900   to-[#403B25]  mr-4 bg-transparent hover:bg-slate-800 text-white  mt-3">
-              <a
+              <Link
                 href="https://www.figma.com/file/DwnvQlCEU9oKQoXg5IBvZv/Cv?type=design&node-id=0-1&mode=design&t=I1S1oRobd5S0kyUZ-0"
                 target="_blank"
                 className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2"
               >
                 CV
-              </a>
+              </Link>
             </button>
           </div>
         </div>
@@ -57,7 +59,7 @@ export const MeSection = () => {
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]   relative ">
             <Image
               src="/images/Profile_NoBackground.png"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full  -my-6 sm:w-200 object-cover"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full -my-6 object-cover"
               alt="ProfileImg"
               width={200}
               height={200}

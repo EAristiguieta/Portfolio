@@ -17,12 +17,12 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "Calculadora",
+    description: "Una calculadora con mucho neon ",
+    image: "/images/projects/CapturaEscritorio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/EAristiguieta/ClassicCalculator",
+    previewUrl: "https://earistiguieta.github.io/ClassicCalculator/",
   },
   {
     id: 3,
@@ -82,7 +82,7 @@ export const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        Mis proyectos
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         {/*      <ProjectTag
