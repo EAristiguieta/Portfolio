@@ -43,9 +43,13 @@ export const MeSection = () => {
               Contacto
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full  bg-gradient-to-br  from-lime-900   to-[#403B25]  mr-4 bg-transparent hover:bg-slate-800 text-white  mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
+              <a
+                href="https://www.figma.com/file/DwnvQlCEU9oKQoXg5IBvZv/Cv?type=design&node-id=0-1&mode=design&t=I1S1oRobd5S0kyUZ-0"
+                target="_blank"
+                className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2"
+              >
+                CV
+              </a>
             </button>
           </div>
         </div>

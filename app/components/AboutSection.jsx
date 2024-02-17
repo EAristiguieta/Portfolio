@@ -5,8 +5,8 @@ import { TabButton } from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
-    id: "skills",
+    title: "Herramientas",
+    id: "Herramientas",
     content: (
       <ul className="list-disc pl-2">
         <li>React</li>
@@ -19,28 +19,28 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Education",
-    id: "education",
+    title: "Educacion",
+    id: "Educacion",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Web developer of Socratech</li>
+        <li> Bootcamp Fullstack Web developer of Socratech</li>
       </ul>
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "Certificaciones",
+    id: "Certificaciones",
     content: (
       <ul className="list-disc pl-2">
         <li>Diseño UX/UI - Accenture</li>
-        <li>Next.Js</li>
+        <li>Next.Js </li>
       </ul>
     ),
   },
 ];
 
 export const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("Herramientas");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -64,22 +64,22 @@ export const AboutSection = () => {
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
+              selectTab={() => handleTabChange("Herramientas")}
+              active={tab === "Herramientas"}
             >
-              Skills
+              Herramientas
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
+              selectTab={() => handleTabChange("Educacion")}
+              active={tab === "Educacion"}
             >
-              Education
+              Educacion
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
+              selectTab={() => handleTabChange("Certificaciones")}
+              active={tab === "Certificaciones"}
             >
-              Certifications
+              Certificaciones
             </TabButton>
           </div>
           <div className="mt-8">
