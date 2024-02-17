@@ -11,7 +11,7 @@ export const MeSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#CCCCCC]   to-[#403B25]">
-              Hello, Im
+              Hola, soy
             </span>
             <br />
             <TypeAnimation
@@ -41,9 +41,10 @@ export const MeSection = () => {
             metas ambiciosas y significativas.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-lime-900  to-[#403B25] bg-white hover:bg-slate-200   text-white ">
+            {/*    TODO proxima secccion para formulario de contacto */}
+            {/*   <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-lime-900  to-[#403B25] bg-white hover:bg-slate-200   text-white ">
               Contacto
-            </button>
+            </button> */}
             <button className="px-1 py-1 w-full sm:w-fit rounded-full  bg-gradient-to-br  from-lime-900   to-[#403B25]  mr-4 bg-transparent hover:bg-slate-800 text-white  mt-3">
               <Link
                 href="https://www.figma.com/file/DwnvQlCEU9oKQoXg5IBvZv/Cv?type=design&node-id=0-1&mode=design&t=I1S1oRobd5S0kyUZ-0"
@@ -55,17 +56,18 @@ export const MeSection = () => {
             </button>
           </div>
         </div>
-        <div className="col-span-4 place-self-center mt-4 lg:mt-0">
+        {/* TODO: Imagen propia par acragra luego */}
+        {/*      <div className="col-span-4 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]   relative ">
             <Image
               src="/images/Profile_NoBackground.png"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full -my-6 object-cover"
               alt="ProfileImg"
-              width={200}
-              height={200}
+              width={150}
+              height={150}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
