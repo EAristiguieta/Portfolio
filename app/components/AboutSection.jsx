@@ -72,7 +72,7 @@ export const AboutSection = () => {
               selectTab={() => handleTabChange("Herramientas")}
               active={tab === "Herramientas"}
             >
-              Tools
+              Stack
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("Educacion")}
