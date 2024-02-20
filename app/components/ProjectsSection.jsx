@@ -6,15 +6,16 @@ import { ProjectCard } from "./ProjectCard";
 import { ProjectTag } from "./ProjectTag";
 
 const projectsData = [
-  /*   {
+  {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "Kankoo App",
+    description: "App de guias turisticas",
+    image: "/images/projects/HomeKankoo.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "#",
-  }, */
+    gitUrl: "https://github.com/EAristiguieta/Kankoo_Project",
+    previewUrl:
+      "https://www.youtube.com/watch?v=RT6CjkMvZTk&t=15s&ab_channel=Socratech",
+  },
   {
     id: 2,
     title: "Calculadora.Js",

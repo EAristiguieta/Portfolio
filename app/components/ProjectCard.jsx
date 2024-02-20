@@ -1,7 +1,6 @@
 import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-
 export const ProjectCard = ({
   imgUrl,
   title,
@@ -12,7 +11,7 @@ export const ProjectCard = ({
   return (
     <div>
       <div
-        className="h-52 md:h-72 rounded-t-xl relative group"
+        className="h-52  rounded-t-xl relative group"
         style={{
           background: `url(${imgUrl})`,
           backgroundSize: "cover",
