@@ -50,13 +50,14 @@ export const MeSection = () => {
                 href="https://www.figma.com/file/DwnvQlCEU9oKQoXg5IBvZv/Cv?type=design&node-id=0-1&mode=design&t=I1S1oRobd5S0kyUZ-0"
                 target="_blank"
                 className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2"
+                rel="noopener noreferrer"
               >
                 CV
               </Link>
             </button>
           </div>
         </div>
-        {/* TODO: Imagen propia par acragra luego */}
+        {/* TODO: Imagen propia para agregar luego */}
         {/*      <div className="col-span-4 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]   relative ">
             <Image
