@@ -3,7 +3,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Porfolio",
+  title: "Edson Aristiguieta",
   description: "V1",
   icons: {
     icon: ["/favicon.ico?=v4"],
