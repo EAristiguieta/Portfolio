@@ -16,6 +16,11 @@
   }
 }
 
+* {
+  scrollbar-color: white #3d3d3d;
+  scrollbar-width: thin;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -25,7 +30,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-/* ss */
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
