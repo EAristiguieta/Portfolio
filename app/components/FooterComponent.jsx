@@ -10,7 +10,7 @@ export const FooterComponent = () => {
   useEffect(() => {
     const copyToClipboard = () => {
       navigator.clipboard.writeText(email);
-      alert(" Correo copiado al portapapeles. ¡Gracias por conectar!");
+      alert(" Correo copiado al portapapeles. ¡Gracias por conectar :)!");
     };
 
     const button = document.getElementById("copyButton");
