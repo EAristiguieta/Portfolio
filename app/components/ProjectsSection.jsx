@@ -25,6 +25,15 @@ const projectsData = [
     gitUrl: "https://github.com/EAristiguieta/ClassicCalculator",
     previewUrl: "https://earistiguieta.github.io/ClassicCalculator/",
   },
+  {
+    id: 3,
+    title: "BarberShop",
+    description: "Maquetacion minimalista",
+    image: "/images/projects/barber-vista-escritorio.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/EAristiguieta/BarberShop",
+    previewUrl: "https://barbershopwebsiteproject.netlify.app/",
+  },
 ];
 export const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
